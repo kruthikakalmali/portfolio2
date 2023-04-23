@@ -27,12 +27,12 @@ function Home2() {
               </i>
               <br />
               <br />
-              Currently working as a Java backend developer with a techstack that involves &nbsp;
+              Currently working as a Java backend developer with a techstack that involves Springboot,Couchbase,Kafka,Mongo,Elastic,Grafana etc &nbsp;
               <i>
-                <b className="purple">Springboot,Couchbase,Kafka,Mongo,Elastic,Grafana etc </b> {" "}
-                <b className="purple">
+                {/* <b className="purple">Springboot,Couchbase,Kafka,Mongo,Elastic,Grafana etc </b> {" "}
+                <b className="purple"> */}
                   
-                </b>
+                {/* </b> */}
               </i>
               <br />
               <br />
