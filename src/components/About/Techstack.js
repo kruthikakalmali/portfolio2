@@ -7,22 +7,22 @@ import {
   DiNodejs,
   DiMongodb,
   DiPython,
-  DiGit,
+  DiGit
 } from "react-icons/di";
 import {
   SiPytorch,
   SiFirebase,
-  SiNextdotjs,
+  SiNextdotjs,SiPrometheus,SiSpringboot,SiSpring,SiApachekafka,SiCouchbase,SiApachecassandra,SiApachespark,SiElasticsearch,SiElastic
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <SiSpringboot />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiSpring />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
@@ -34,10 +34,10 @@ function Techstack() {
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiApachekafka />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiCouchbase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
@@ -47,6 +47,15 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPytorch />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiElastic />
+      </Col>   <Col xs={4} md={2} className="tech-icons">
+        <SiElasticsearch />
+      </Col>   <Col xs={4} md={2} className="tech-icons">
+        <SiApachespark />
+      </Col>   <Col xs={4} md={2} className="tech-icons">
+        <SiApachecassandra />
       </Col>
     </Row>
   );
