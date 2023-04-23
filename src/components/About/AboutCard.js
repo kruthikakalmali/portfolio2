@@ -13,7 +13,7 @@ function AboutCard() {
             <br />I graduated from Ramaiah Institute of Technology in Computer science in 2021
             <br />
             <br />
-            Working in Lowe's as a java backend developer since then. In my stint of almost two years at Lowe's ,apart from the learning many technologies from scratch, I learned about the intricacies of retail as a domain and how business and tech work together to do amazing things!
+            Working in Lowe's as a java backend developer since then. In my stint of almost two years at Lowe's ,apart from learning many technologies from scratch, I learned about the intricacies of retail as a domain and how business and tech work together to do amazing things!
           </p>
           {/* <ul>
             <li className="about-activity">
