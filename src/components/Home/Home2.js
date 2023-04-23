@@ -36,16 +36,15 @@ function Home2() {
               </i>
               <br />
               <br />
-              I have   <b className="purple">Node.js</b> and
+              Checkout my previous work and feel free to connect with me if you have a fresh idea or opportunity! :)  <b className="purple"></b>
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
                 </b>
               </i>
-              &nbsp; like
+              &nbsp;
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"></b>
               </i>
             </p>
           </Col>
@@ -58,9 +57,7 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
+         
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a

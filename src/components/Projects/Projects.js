@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import a6 from "../../Assets/Projects/6.png";
+import a1 from "../../Assets/Projects/1.png";
+import a2 from "../../Assets/Projects/2.png";
+import a3 from "../../Assets/Projects/3.png";
+import a4 from "../../Assets/Projects/4.png";
+import a5 from "../../Assets/Projects/5.png";
 
 function Projects() {
   return (
@@ -18,73 +18,79 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I've worked on!
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={a5}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Real-Time Translation of Indian Sign Language to Assist the Hearing and Speech Impaired"
+              description="Indian Sign Language (ISL) is one of the most used sign languages in the Indian subcontinent. This project aims at developing a simple Indian sign language recognition system based on convolutional neural network (CNN). The proposed system needs webcam and laptop. CNN is used for image classification. Scale invariant feature transformation (SIFT) is hybridized with adaptive thresholding and Gaussian blur image smoothing for feature extraction. Due to unavailability of ISL dataset, a dataset of 5000 images, 100 images each for 50 gestures, has been created. The system is implemented and tested using python-based library Keras. The proposed CNN with hybrid SIFT implementation achieves 92.78% accuracy, whereas the accuracy of 91.84% was achieved for CNN with adaptive thresholding."
+              ghLink="https://github.com/kruthikakalmali/IndianSignLanguage_To_Speech"
+              // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={a2}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Scene Understanding Challenge for Autonomous Navigation in Unstructured Environments"
+              description="In this paper we perform semantic segmentation on Indian Driving Dataset which has been recently compiled on the urban and rural roads of Bengaluru and Hyderabad. This dataset is more challenging compared to other datasets like Cityscapes, since it is based on unstructured driving environments. It has a four level hierarchy and in this paper we perform segmentation on the first level. Five different models have been trained and their performance has been compared using the Mean Intersection over Union. These are UNET, UNET+RESNET50, DeepLabsV3, PSPNet and SegNet. The highest MIOU of 0.6496 has been achieved. The paper discusses the dataset, exploratory data analysis, preparation, implementation of the five models and studies the performance and compares the results achieved in the process."
+              ghLink="https://github.com/kruthikakalmali/Solving-Scene-Understanding-for-Autonomous-Navigation-in-Unstructured-Environments-FY-PROJECT-2021"
+             
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={a6}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Smart store replenishment system and POC for Lowe's Hackathon                                                             "
+              description="
+              A smart store replenishment system solution and POC for Lowe's hackathon
+              -We propose a system where the supervisor is able to view a comprehensive study of the store sales and inventory
+              -The supervisor is informed of the stocks present and the items that need to be restocked urgently
+              -He/she is also provided with an analysis of the various customers visiting the store with the top customers and customer segments
+              -We also provide recommendations to restock inventory based on the current demand and price to give the most optimal solution to the supervisor and thus ensuring the store’s best interest
+              -The supervisor is also provided with a direct restock option and the optimum amount to restock based on demand, price and expiration date"
+              ghLink="https://github.com/kruthikakalmali/Smart--Store-replenishment-system"
+                     
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={a4}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Legal document analysis and summarization"
+              description="To improve the way Legal Documents and Terms and Conditions contracts are presented and analyzed. Provide a comprehensive and easy to understand summary of legal documents and analytics of the text, allowing a deeper insight into it for the reader"
+              ghLink="https://github.com/kruthikakalmali/Legal-document-analysis-and-summarization"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={a3}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Econfai - Reduce emissions by optimizing event locations and travel"
+              description="Arranging logistics for any event is a challenge. Especially, when you factor in the huge amount of participants flying in from different parts of the world. This usually leads to unnecessary travel which adds to extra flight costs and burden on the environment in the form of carbon emissions.
+              Our platform factors in organizers’ preferred locations and the participants’ locations, and recommends the optimal location to host the event, which has the lowest flight costs and emissions.
+              The organizer can also generate and send QR codes for the participants to reduce the paper trail in these events."
+              ghLink="https://docs.google.com/document/d/1NyY5LnRU1chk6pvWmYWJ__gCUs90vlxgdX_IDJoF5Ok/edit?usp=sharing"
+             
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={a1}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Fund it - Democratize access to capital"
+              description="A platform that democratizes access to capital for small businesses via crowdfunding"
+              ghLink="https://github.com/kruthikakalmali/Fund-It--Democratize-access-to-capital"
+             
             />
           </Col>
         </Row>
